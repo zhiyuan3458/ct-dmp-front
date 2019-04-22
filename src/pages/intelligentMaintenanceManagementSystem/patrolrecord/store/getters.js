@@ -1,0 +1,21 @@
+export default {
+  showWidth: state => state.showWidth,
+  readOnly: state => state.readOnly,
+  readOnlyTrue: state => state.readOnlyTrue,
+  treeList: state => state.treeList,
+  gridEntityInfo: state => state.gridEntityInfo,
+  listGridColumnInfo: state => state.listGridColumnInfo,
+  tableList: state => state.tableList,
+  deptIds: state => state.deptIds,
+  extraCondition: state => state.extraCondition,
+  formData: state => state.formData,
+  listPatrolRecordSub: state => state.listPatrolRecordSub,
+  isAddEditShow: state => state.isAddEditShow,
+  isListShow: state => state.isListShow,
+  isLoading: state => state.isLoading,
+  tableBtns: state => state.tableBtns,
+  ztreeSelect: state => state.ztreeSelect,
+  navigateMenus: state => state.navigateMenus,
+  operateBtns: state => state.operateBtns,
+  isIndex: state => state.isIndex
+};

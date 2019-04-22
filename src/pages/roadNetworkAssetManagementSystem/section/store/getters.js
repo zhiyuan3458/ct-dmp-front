@@ -1,0 +1,20 @@
+export default {
+  readOnly: state => state.readOnly,
+  treeList: state => state.treeList,
+  gridEntityInfo: state => state.gridEntityInfo,
+  listGridColumnInfo: state => state.listGridColumnInfo,
+  tableList: state => state.tableList,
+  deptId: state => state.deptId,
+  formData: state => state.formData,
+  isAddEditShow: state => state.isAddEditShow,
+  isListShow: state => state.isListShow,
+  isLoading: state => state.isLoading,
+  tableBtns: state => state.tableBtns,
+  mgZtreeSelect: state => state.mgZtreeSelect,
+  mtZtreeSelect: state => state.mtZtreeSelect,
+  listRepeatSection: state => state.listRepeatSection,
+  listExternalSection: state => state.listExternalSection,
+  navigateMenus: state => state.navigateMenus,
+  operateBtns: state => state.operateBtns,
+  qrCodeUrl: state => state.qrCodeUrl
+};

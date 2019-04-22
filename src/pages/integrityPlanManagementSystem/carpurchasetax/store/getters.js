@@ -1,0 +1,20 @@
+export default {
+  readOnly: state => state.readOnly,
+  treeList: state => state.treeList,
+  carPurchaseTax: state => state.carPurchaseTax,
+  formDataParams: state => state.formDataParams,
+  editParams: state => state.editParams,
+  gridEntityInfo: state => state.gridEntityInfo,
+  listGridColumnInfo: state => state.listGridColumnInfo,
+  tableList: state => state.tableList,
+  formData: state => state.formData,
+  isAddEditShow: state => state.isAddEditShow,
+  isListShow: state => state.isListShow,
+  isLoading: state => state.isLoading,
+  tableBtns: state => state.tableBtns,
+  navigateMenus: state => state.navigateMenus,
+  operateBtns: state => state.operateBtns,
+  investmentStatusSub: state => state.investmentStatusSub,
+  suggestedPlanSub: state => state.suggestedPlanSub,
+  isRefreshList: state => state.isRefreshList
+};

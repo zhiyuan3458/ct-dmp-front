@@ -1,0 +1,34 @@
+import actions from './actions';
+import mutations from './mutations';
+import getters from './getters';
+import constant from '@/common/js/constant';
+
+export default {
+  namespaced: true,
+  state ()
+  {
+    return {
+      marginLeft: constant.MARGIN_LEFT,
+      isAddEditShow: false, // 是否显示addEdit组件
+      isListShow: false, // 是否显示list组件
+      isLoading: false, // 数据加载动画显示
+      formData: {}, // 表单数据
+      isRefreshList: false, // 是否刷新列表
+      isImgShow: false, // 是否显示流程图
+      processdefinition: '', // 流程定义
+      tableList: {}, // 数据内容list(包含listData,pageNum,pageSize,total,pages)
+      gridEntityInfo: {}, // 表名信息
+      listGridColumnInfo: [], // 用户表格的表头名
+      tableBtns: [], // 表功能按钮
+      navigateMenus: [], // 导航栏数据
+      operateBtns: [], // 功能按钮数据
+      readOnly: false, // 判断是否只读
+      categoryNode: {}, // 类型节点数据
+      isAddCategoryShow: false, // 是否显示addCategory组件
+      isRefreshTree: false // 是否刷新左侧树
+    };
+  },
+  getters,
+  actions,
+  mutations
+};

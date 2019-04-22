@@ -1,0 +1,148 @@
+/* table的样式 */
+.lzy-form-wrapper {
+  height: 100%;
+  padding: 0 0 5px 2px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+
+  .tool-wrapper {
+    .btn-group {
+      padding: 4px 0;
+      border-bottom: 1px solid #ddd;
+
+      .el-icon-back {
+        color: #5CC48F;
+        font-weight: 700;
+      }
+
+      .el-icon-plus {
+        color: #D85C0D;
+        font-weight: 700;
+      }
+
+      .el-icon-delete {
+        color: #DC3F2C;
+        font-weight: 700;
+      }
+
+      .el-icon-upload2 {
+        color: #217FBC;
+        font-weight: 700;
+      }
+
+      .el-icon-download {
+        color: #2FA2E0;
+        font-weight: 700;
+      }
+    }
+
+    .nav-bar {
+      display: inline-block;
+      margin: 5px 0;
+      .content;
+
+      .el-icon-star-on {
+        display: inline-block;
+        margin-right: 5px;
+        color: #F59C00;
+      }
+
+      .el-breadcrumb__inner {
+        font-family: "宋体";
+        color: #333;
+        font-size: 12px;
+        font-weight: 100 !important;
+      }
+    }
+  }
+  .form-container {
+    height: calc(100% - 62px);
+    overflow: auto;
+
+    .el-collapse-item__header {
+      height: 24px;
+      line-height: 24px;
+      padding-left: 5px;
+      box-sizing: border-box;
+      color: #F56202;
+      font-size: 13px;
+      font-weight: 700;
+      background: #eeeeee;
+
+      &:hover {
+        background: #FFE6B0;
+      }
+
+      .el-collapse-item__arrow {
+        line-height: 24px;
+      }
+    }
+
+    .form-table {
+      .form-header {
+        font-family: "宋体";
+        background: #EDF6FC;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 16px;
+        color: rgb(51, 51, 51);
+        font-weight: bold;
+      }
+      .form-th {
+        text-align: center;
+      }
+      .ztree-container {
+        height: 280px;
+        overflow: auto;
+      }
+      .child-table-container {
+        padding: 0;
+        .child-table-wrapper {
+          width: 100%;
+          height: 100px;
+          overflow: auto;
+          float: left;
+
+          .child-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+
+            .add-td {
+              border: 0;
+            }
+
+            .child-table-input {
+              width: 90%;
+              -web-kit-appearance:none;
+              -moz-appearance: none;
+              border: #ccc 1px solid;
+            }
+          }
+        }
+      }
+    }
+
+    .ct-icon-add-green {
+      display: inline-block;
+      font-size: 16px;
+      margin-left: 2px;
+      cursor: pointer;
+    }
+
+    .ct-icon-minus1-red {
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .el-tabs.el-tabs--top.el-tabs--border-card {
+      height: 99%;
+    }
+    .el-input--suffix .el-input__inner {
+      padding-right: 0;
+    }
+  }
+}

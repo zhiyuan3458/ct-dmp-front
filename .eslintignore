@@ -1,0 +1,6 @@
+/build/
+/config/
+/dist/
+/*.js
+/static/pdfjs-2.0.943-dist/
+/src/components/deskLayout/component/mapChart.vue
