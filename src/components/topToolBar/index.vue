@@ -1,7 +1,7 @@
 <template>
-  <div class="tool-wrapper" ref="toolWrapper">
+  <div class="tool-wrapper" ref="toolWrapper" :style="{height: haveBtn ? '62px' : '24px'}">
     <!-- 按钮组 -->
-    <div class="btn-group" ref="btnGroup">
+    <div class="btn-group" ref="btnGroup" v-if="haveBtn">
       <el-button
         size="mini"
         class="btn-item"
@@ -88,6 +88,12 @@ export default {
     qrCodeData: {
       type: String,
       default: ''
+    }
+  },
+  computed: {
+    haveBtn ()
+    {
+      return this.metaData.testBtnList && this.metaData.testBtnList.length !== 0;
     }
   },
   watch: {

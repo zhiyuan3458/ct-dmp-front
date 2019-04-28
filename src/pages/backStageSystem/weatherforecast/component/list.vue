@@ -4,7 +4,7 @@
       :btnList="operateBtns"
       :breadcrumbs="navigateMenus"
     ></right-nav-layout>
-    <div class="form-container">
+    <div class="form-container form-container-without-btn">
       <el-collapse v-model="activeNames">
         <el-collapse-item title="当天天气预报信息" name="1">
           <currentlist></currentlist>
